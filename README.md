@@ -8,8 +8,6 @@
 1. Datasets and pre-trained berts
 
 Download dataset features and pre-trained berts from the following links.
-
-- [Baidu Cloud Drive](https://pan.baidu.com/s/1oksuDEkkd3vGg2oBMBxiVw) with code: `ctgs`
 - [Google Cloud Drive](https://drive.google.com/drive/folders/1E5kojBirtd5VbfHsFp6FYWkQunk73Nsv?usp=sharing)
 
 For all features, you can use `SHA-1 Hash Value` to check the consistency.
