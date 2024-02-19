@@ -55,7 +55,7 @@ For bert models, you also can download [Bert-Base, Chinese](https://storage.goog
 ```
 git clone https://github.com/wsy981101/TAM-ULAG.git
 cd TAM-ULAG
-conda create --name self_mm python=3.8
+conda create --name tam_ulag python=3.8
 source activateTAM-ULAG
 pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f 
 pip install pytorch_transformers
@@ -77,7 +77,7 @@ python run.py --modelName ta_gml
 Please cite our paper if you find our work useful for your research:
 ```
 @inproceedings{
-  title={Self-supervised Multimodal Emotion Recognition Based on Temporal Attention Mechanism and Unimodal Label Automatic Generation Strateg},
+  title={Self-supervised Multimodal Emotion Recognition Based on Temporal Attention Mechanism and Unimodal Label Automatic Generation Strateg},
   author={Sun, Qiang and Wang, Shuyu},
   booktitle={Journal of Electronics & Information Technology },
   year={2024}
