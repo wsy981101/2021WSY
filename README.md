@@ -76,9 +76,7 @@ If you have any questions, please feel free to reach me out at qsun@xaut.edu.cn 
 ### Citation
 If this work is useful to you, please cite:
 
-Sun, Q., Wang, S.Y.: Self-supervised Multimodal Emotion Recognition Based on Temporal Attention Mechanism and Unimodal Label Automatic Generation Strateg[J]. Journal of Electronics & Information Technology. doi: 10.11999/JEIT231107.
-
-Qiang Sun1,2,Shuyu Wang1
+   Sun, Q., Wang, S.Y.: Self-supervised Multimodal Emotion Recognition Based on Temporal Attention Mechanism and Unimodal Label Automatic Generation Strateg[J]. Journal of Electronics & Information Technology. doi: 10.11999/JEIT231107.
 
 1.Department of Communication Engineering, School of Automation and Information Engineering, Xi’an University of Technology, Xi’an 710048, China
 2.Xi’an Key Laboratory of Wireless Optical Communication and Network Research, Xi’an 710048, China
