@@ -1,9 +1,11 @@
 ![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)
 
 
-### Model
+### Overview
+![图1](https://github.com/wsy981101/TAM-ULAG/assets/95170179/39b42479-8b6b-4056-a089-2d4292790453)
+Abstract: Most multimodal emotion recognition methods aim to find an effective fusion mechanism to construct the features from heterogeneous modalities, so as to learn the feature representation with semantic consistency. However, these methods usually ignore the emotionally semantic differences between modalities. To solve this problem, one multi-task learning framework is proposed. By training one multimodal task and three unimodal tasks jointly, the emotionally semantic consistency information among multimodal features and the emotionally semantic difference information contained in each modality are respectively learned. Firstly, in order to learn the emotionally semantic consistency information, one Temporal Attention Mechanism (TAM) based on a multilayer recurrent neural network is proposed. The contribution degree of emotional features is described by assigning different weights to time series feature vectors. Then, for multimodal fusion, the fine-grained feature fusion per semantic dimension is carried out in the semantic space. Secondly, one self-supervised Unimodal Label Automatic Generation (ULAG) strategy based on the inter-modal feature vector similarity is proposed in order to effectively learn the difference information of emotional semantics in each modality. A large number of experimental results on three datasets, CMU-MOSI, CMU-MOSEI, CH-SIMS, confirm that the proposed TAM-ULAG model has strong competitiveness, and has improved the classification indices ( ,  ) and regression index (MAE, Corr) compared with the current benchmark models. For binary classification, the recognition rate is 87.2% and 85.8% on the CMU-MOSEI and CMU-MOSEI datasets, and 81.47% on the CH-SIMS dataset. The results show that simultaneously learning the emotionally semantic consistency information and the emotionally semantic difference information for each modality is helpful in improving the performance of self-supervised multimodal emotion recognition method.
 
-### Usage
+### Data availability
 
 1. Datasets and pre-trained berts
 
@@ -67,17 +69,11 @@ Modify the `config/config_tune.py` and `config/config_regression.py` to update d
 python run.py --modelName ta_gml
 ```
 
-### Results
+### Contact
+If you have any questions, please feel free to reach me out at qsun@xaut.edu.cn and 2210320080@stu.xaut.edu.cn.
 
 
-### Paper
----
-Please cite our paper if you find our work useful for your research:
-```
-@inproceedings{
-  title={Self-supervised Multimodal Emotion Recognition Based on Temporal Attention Mechanism and Unimodal Label Automatic Generation Strateg},
-  author={Sun, Qiang and Wang, Shuyu},
-  booktitle={Journal of Electronics & Information Technology },
-  year={2024}
-}
-```
+### Citation
+If this work is useful to you, please cite:
+Sun, Q., Wang, S.Y.: Self-supervised Multimodal Emotion Recognition Based on Temporal Attention Mechanism and Unimodal Label Automatic Generation Strateg[J]. Journal of Electronics & Information Technology. doi: 10.11999/JEIT231107.
+
